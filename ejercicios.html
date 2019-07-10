@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    /*Crear una variable con nombre "primerVariable" y asignarle un valor.
+    Luego escribir en la consola "primerVariable" y ver que sucede.*/
+
+    let primerVariable = 30;
+
+    console.log(primerVariable);
+
+    /*Crear dos variables. A cada una asignarle un número y luego multiplicarlas.*/
+
+    let num1 = 2;
+    let num2 = 4;
+
+    let multiplicación = num1*num2;
+
+    /*Mostrar el año de tu nacimiento por la consola.*/
+
+    console.log(1989);
+
+    /*Escribir un programa que muestre por la consola, usando un único console.log, tu nombre
+    y tu edad.*/
+
+    console.log("Leidy Gil", 29);
+
+    /*Mostrar un texto de bienvenida utilizando alert()*/
+
+    alert("Bienvenido");
+
+    /*Guardar en una variable la comida favorita del usuario de tu programa usando prompt.*/
+
+    var food = prompt("Cúal es tu comida favorrita?");
+
+    /*Crear un programa que le pida al usuario, con un prompt, que ingrese su nombre y
+    guardarlo en una variable nombreDeUsuario. A continuación mostrar con una alerta el texto 
+    "Hola" + nombreDeUsuario.*/
+
+    let nombreDeUsuario = prompt("ingrese su nombre:");
+
+    alert("Hola" + " " + nombreDeUsuario);
+
+    /*Declarar una variable acumulador con valor inicial igual 0. Luego, crear 4 variables
+    con números asignados en orden creciente: 1, 2, 3 y 4. Utilizando la operación de suma (+=) 
+    ir sumando los números, en orden, a la variable acumulador. Mostrar usando un alert el 
+    resultado del acumulador.*/
+
+    let acumulador = 0;
+    let vble1 = 1;
+    let vble2 = 2;
+    let vble3 = 3;
+    let vble4 = 4;
+
+        acumulador+= vble1 += vble2 += vble3 += vble4;
+        alert(acumulador);
+
+    /*Crear dos variables nro1 y nro2 que empiecen ambas en 0. Incrementar el valor de nro1
+    dos veces (utilizando la notación ++) y el de nro2, una vez. Muestra el resultado de restar la 
+    variable nro2 a nro1 por la consola.*/
+
+    let nro1 = 0;
+    let nro2 = 0;
+
+    ++nro1;
+    nro1++
+    nro2++;
+
+    console.log(nro2-nro1);
+
+    /*Pedir un número a un usuario a través de un prompt y luego dividirlo por 10*/
+
+    let dato = prompt("Ingrese un número:");
+    numero = parseInt(dato);
+    console.log(numero/10);
+
+    /*Calcular el resto de dividir 14 por 3*/
+
+    console.log(14%3);
+
+    /*Sumar el resultado de calcular el resto de 561 por 25 a una variable que tenga asignado
+    el número 10. Luego, mostrar este número con una alerta.*/
+
+    let resto = 561 % 25;
+    let suma = 10 + resto;
+
+    alert(suma);
+
+    /*Concatenar 3 strings (uno por cada palabra) para formar la frase: "Qué lindo programar".
+    No te olvides de los espacios blancos.*/
+
+    let text1 = "Qué";
+    let text2 = " lindo";
+    let text3 = " programar";
+
+    console.log(text1 + text2 + text3);
+
+    /*Crear dos variables, hola y mundo. hola debe contener el texto "hola", mundo debe contener 
+    el texto "mundo". Mostrar en una alerta la concatenación de ambas variables con un espacio 
+    en blanco en el medio.*/
+
+    let hola = "hola";
+    let mundo = "mundo";
+
+    alert(hola + " " + mundo);
+
+    /*Implementar un programa que permita calcular porcentajes. Pedir al usuario que ingrese el valor 
+    equivalente al 100% de algo y luego que ingrese otro valor. Se deberá mostrar por consola, el 
+    porcentaje del total de ese segundo valor.*/
+
+        let primerValor = prompt("Ingrese el valor equivalente al 100% del primer producto:")
+        let dato1 = parseInt(primerValor);
+        let segundoValor = prompt("Ingrese el valor equivalente al 100% del segundo producto")
+        let dato2 = parseInt(segundoValor);
+
+        let porcentaje = segundoValor*100/primerValor;
+
+        console.log(porcentaje);
+        
+  </script>
+</body>
+
+</html>
